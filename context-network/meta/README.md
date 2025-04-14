@@ -11,6 +11,10 @@ meta/
 ├── network-guide.md            # Guide to using the context network
 ├── update-protocols.md         # Procedures for maintaining the network
 ├── evolution-log.md            # History of network changes
+├── consistency-improvement-plan.md  # Plan for addressing inconsistencies
+├── version-concordance.md      # Tracking specification and implementation alignment
+├── feature-coverage-matrix.md  # Feature support across language adapters
+├── versioning-strategy.md      # Version numbering and compatibility requirements
 └── agent-workflows/            # Workflows for specific agent tasks
     ├── translation-agent.md    # Workflows for translation agents
     ├── adapter-creation.md     # Workflows for creating new adapters
@@ -61,7 +65,27 @@ Each meta document follows this structure:
    - Tracks the addition of new languages and features
    - Provides context for understanding the network's development
 
-4. **agent-workflows/**: Task-specific workflows for LLM agents
+4. **consistency-improvement-plan.md**: Plan for addressing inconsistencies in the system
+   - Identifies potential issues and contradictions
+   - Outlines specific improvement actions
+   - Defines implementation phases and success criteria
+
+5. **version-concordance.md**: Tracking alignment between specifications and implementations
+   - Maps version relationships between components
+   - Provides feature coverage analysis
+   - Identifies implementation gaps and priorities
+
+6. **feature-coverage-matrix.md**: Detailed matrix of feature support across language adapters
+   - Documents implementation status for each feature
+   - Highlights compatibility issues
+   - Prioritizes implementation efforts
+
+7. **versioning-strategy.md**: Guidelines for version management
+   - Defines version numbering scheme
+   - Establishes compatibility requirements
+   - Outlines update propagation rules
+
+8. **agent-workflows/**: Task-specific workflows for LLM agents
    - Provides step-by-step guides for common tasks
    - Defines input and output expectations
    - Offers optimization strategies for different agent roles
@@ -69,7 +93,9 @@ Each meta document follows this structure:
 ## Usage Guidelines for LLM Agents
 
 1. Start with network-guide.md to understand how to use the context network
-2. Follow update-protocols.md when making changes to the network
-3. Consult evolution-log.md to understand the historical context
-4. Use agent-workflows/ documents for guidance on specific tasks
-5. Contribute to the meta documentation as the network evolves
+2. Consult consistency-improvement-plan.md to understand current system improvement efforts
+3. Use version-concordance.md and feature-coverage-matrix.md when working with language adapters
+4. Follow update-protocols.md and versioning-strategy.md when making changes to the network
+5. Consult evolution-log.md to understand the historical context
+6. Use agent-workflows/ documents for guidance on specific tasks
+7. Contribute to the meta documentation as the network evolves
