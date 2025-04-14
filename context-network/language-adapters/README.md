@@ -24,12 +24,17 @@ language-adapters/
 │   ├── export-adapter.md       # Linguitect to Python mapping
 │   ├── idioms.md               # Python-specific idioms
 │   └── stdlib-mapping.md       # Standard library equivalents
-└── rust/                       # Rust language adapter documentation
-    ├── overview.md             # Rust adapter summary
-    ├── import-adapter.md       # Rust to Linguitect mapping
-    ├── export-adapter.md       # Linguitect to Rust mapping
-    ├── idioms.md               # Rust-specific idioms
-    └── stdlib-mapping.md       # Standard library equivalents
+├── rust/                       # Rust language adapter documentation
+│   ├── overview.md             # Rust adapter summary
+│   ├── import-adapter.md       # Rust to Linguitect mapping
+│   ├── export-adapter.md       # Linguitect to Rust mapping
+│   ├── idioms.md               # Rust-specific idioms
+│   └── stdlib-mapping.md       # Standard library equivalents
+└── typescript/                 # TypeScript language adapter documentation
+    ├── README.md               # TypeScript adapter summary
+    ├── typescript-to-linguitect.md # TypeScript to Linguitect mapping
+    ├── linguitect-to-typescript.md # Linguitect to TypeScript mapping
+    └── typescript-specific-idioms.md # TypeScript-specific idioms
 ```
 
 Additional language directories will be added as the project expands.
