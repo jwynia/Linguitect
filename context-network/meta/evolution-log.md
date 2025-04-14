@@ -74,6 +74,25 @@ Analysis of existing documentation revealed inconsistencies and potential issues
 **Impact**:
 Provides a clear roadmap for improving system consistency, tracking implementation status, and ensuring quality across language adapters. Establishes processes for versioning, validation, and feature tracking that will support the addition of new languages and features.
 
+### 2025-04-14: Mode Prompt Updates for Context Network Maintenance
+
+**Type**: Addition
+**Components**: Meta directory
+**Author**: Architect Mode
+
+**Description**:
+Created mode-prompt-updates.md to recommend improvements to the Architect mode prompt for better context network maintenance:
+- Identified current limitations in context network maintenance
+- Recommended specific prompt updates including a Context-Network Update Phase
+- Provided implementation guidelines and expected benefits
+- Included example workflows showing before and after scenarios
+
+**Rationale**:
+The current mode prompt lacks explicit guidance for consistently updating the context network with valuable insights generated during task completion. These recommendations aim to make context network updates a standard part of the task completion process.
+
+**Impact**:
+When implemented, these prompt updates will lead to more consistent documentation of insights in the context network, better knowledge reuse, reduced redundancy, and improved context awareness for LLM agents working on the Linguitect project.
+
 ### Planned Future Developments
 
 The following developments are planned for future implementation:
